@@ -628,3 +628,34 @@ header {
   line-height: 19px;
   letter-spacing: 0;
 }
+
+.footer-div-1-nav-div-1-head {
+  margin: 0;
+  color: #212224;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+
+.footer-div-1-nav-div-1-contents {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-div-1-nav-div-1-content-area {
+  margin: 0;
+  color: #727585;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+}
+
+.footer-div-1-nav-div-1-content {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
