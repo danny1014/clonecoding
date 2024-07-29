@@ -1,28 +1,16 @@
 * {
-  font-family: 'Metro Sans', sans-serif;
   margin: 0px;
   padding: 0px;
 }
-
-html {
-  line-height: normal;
+body{
+  overflow-x : hidden;
 }
-
 ul {
   display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  unicode-bidi: isolate;
 }
 
 li {
   list-style: none;
-  display: list-item;
-  unicode-bidi: isolate;
 }
 
 header {
@@ -60,9 +48,7 @@ header {
 
 .header-section {
   display: flex;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-align: center;
   align-items: center;
   width: 1200px;
   margin: 0 auto;
@@ -70,7 +56,6 @@ header {
 }
 
 .header-link {
-  cursor: pointer;
   text-decoration: none;
   width: 85px;
   height: 26px;
@@ -87,7 +72,7 @@ header {
 
 .header-search-div {
   width: 100%;
-  height: fit-content;
+  height: 40px;
   display: flex;
   flex: 1 1 0%;
   flex-direction: column;
@@ -97,7 +82,6 @@ header {
 .header-search-input {
   width: 100%;
   border: 1px solid rgb(48, 52, 65);
-  transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
   display: inline-flex;
   column-gap: 8px;
   flex-direction: row;
@@ -143,15 +127,12 @@ header {
   box-sizing: border-box;
   border-radius: 8px;
   font-weight: 500;
-  transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   position: relative;
-  user-select: none;
-  white-space: nowrap;
   max-width: 100%;
   height: 36px;
   font-size: 14px;
@@ -168,10 +149,6 @@ header {
   font-style: normal;
   line-height: 0;
   text-align: center;
-  text-transform: none;
-  vertical-align: -0.125em;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .search-button svg {
@@ -201,7 +178,6 @@ header {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0px;
 }
 
 .enterprise-div {
@@ -241,7 +217,6 @@ header {
   box-sizing: border-box;
   border-radius: 8px;
   font-weight: 500;
-  transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -273,16 +248,13 @@ header {
 
 .nav-all-category {
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
   height: 48px;
 }
 
 .nav-all-category-layout {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-pack: center;
   justify-content: center;
   position: relative;
   height: 22px;
@@ -313,7 +285,6 @@ header {
   text-transform: none;
   vertical-align: -0.125em;
   text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .nav-all-category-expand {
@@ -414,8 +385,6 @@ header {
   height: 1px;
   margin: 0;
   border: none;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   background-color: #e4e5ed;
 }
 
@@ -427,7 +396,6 @@ header {
   background-color: #ffffff;
   max-width: 1280px;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -437,7 +405,6 @@ header {
   width: 100%;
   max-width: 1200px;
   display: flex;
-  -ms-flex-direction: row;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
@@ -445,12 +412,10 @@ header {
 
 .footer-div-1-nav-div {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   gap: 20px;
   padding-left: 16px;
   padding-right: 16px;
-  -ms-flex: auto;
   flex: auto;
 }
 
@@ -467,18 +432,12 @@ header {
   border-radius: 8px;
   line-height: 1;
   font-weight: 500;
-  transition: background-color 0.3s, border-color 0.3s;
   text-decoration: none;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   cursor: pointer;
   position: relative;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   white-space: nowrap;
   max-width: 100%;
   height: 36px;
@@ -499,18 +458,12 @@ header {
   border-radius: 8px;
   line-height: 1;
   font-weight: 500;
-  transition: background-color 0.3s, border-color 0.3s;
   text-decoration: none;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   cursor: pointer;
   position: relative;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
   max-width: 100%;
@@ -530,7 +483,6 @@ header {
   font-size: 0.8125rem;
   font-weight: 400;
   line-height: 19px;
-  letter-spacing: 0;
 }
 
 .footer-div-1-nav-div-2 {
@@ -539,7 +491,6 @@ header {
   font-size: 0.8125rem;
   font-weight: 400;
   line-height: 19px;
-  letter-spacing: 0;
 }
 
 .footer-div-1-nav-div-3 {
@@ -547,7 +498,6 @@ header {
   background-color: #f7fbff;
   width: 300px;
   padding: 12px;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
@@ -558,7 +508,6 @@ header {
   font-size: 0.7125rem;
   font-weight: 400;
   line-height: 19px;
-  letter-spacing: 0;
 }
 
 .footer-div-1-nav-div-1-head {
@@ -567,7 +516,6 @@ header {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0;
 }
 
 .footer-div-1-nav-div-1-contents {
@@ -581,7 +529,6 @@ header {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0;
   margin-bottom: 8px;
 }
 
@@ -592,7 +539,6 @@ header {
 }
 
 .footer-appstore-div {
-  display: -ms-flexbox;
   display: flex;
   gap: 8px;
   position: absolute;
@@ -608,18 +554,12 @@ header {
   border-radius: 8px;
   line-height: 1;
   font-weight: 500;
-  transition: background-color 0.3s, border-color 0.3s;
   text-decoration: none;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   cursor: pointer;
   position: relative;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
   max-width: 100%;
@@ -638,7 +578,6 @@ header {
 .appstore-icon {
   margin-left: -2px;
   margin-right: 6px;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -672,18 +611,12 @@ header {
   border-radius: 6px;
   line-height: 1;
   font-weight: 500;
-  transition: background-color 0.3s, border-color 0.3s;
   text-decoration: none;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   cursor: pointer;
   position: relative;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
   max-width: 100%;
@@ -711,7 +644,6 @@ header {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0;
 }
 
 .copyright-area {
@@ -724,19 +656,6 @@ header {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0;
-}
-
-.keen-slider:not([data-keen-slider-disabled]) {
-  align-content: flex-start;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  touch-action: pan-y;
-  -moz-user-select: none;
-  user-select: none;
-  -khtml-user-select: none;
-  width: 100%;
 }
 
 .slider {
@@ -745,13 +664,11 @@ header {
   width: 2148px !important;
   margin: 0;
   padding: 0;
-}
-
-.keen-slider:not([data-keen-slider-disabled]) .keen-slider__slide {
-  min-height: 100%;
+  align-content: flex-start;
+  display: flex;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  user-select: none;
 }
 
 .slide {
@@ -764,55 +681,21 @@ header {
   border-radius: 16px;
 }
 
-@keyframes bannermove {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  100% {
-    transform: translate(-50%, 0);
-  }
-}
-
-.slide123 {
-  display: block;
-  border-radius: 16px;
-}
-
-.slide4 {
-  display: block;
-  border-radius: 16px;
-  background-color: #FFE714;
-}
-
 .slide-move-button {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
   width: 32px;
   height: 32px;
-  -ms-flex-pack: center;
   justify-content: center;
   background-color: #ffffff;
   opacity: 0.5;
   border-radius: 50%;
   border: none;
-  box-shadow: 0 0 0 1px transparent, 0 0 0 4px transparent, 0 2px 4px rgba(0 0 0 / 18%);
   cursor: pointer;
 }
 
 .slide-move-button-icon {
   display: inline-block;
-  color: inherit;
-  font-style: normal;
-  line-height: 0;
-  text-align: center;
-  text-transform: none;
-  vertical-align: -0.125em;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  color: #212224;
 }
 
 .slide-page {
@@ -822,17 +705,13 @@ header {
   min-width: 64px;
   padding: 4px 8px;
   height: 28px;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 14px;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 13px;
   line-height: 15px;
-  pointer-events: auto;
 }
 
 .main-section1-ul {
@@ -885,11 +764,9 @@ header {
   font-size: 0.775rem;
   font-weight: 400;
   line-height: 1.5;
-  /* 텍스트의 줄 높이 설정 */
   letter-spacing: 0px;
   cursor: pointer;
   white-space: nowrap;
-  /* 텍스트가 한 줄로 유지되도록 설정 */
 }
 
 .main-section3-slide {
@@ -927,11 +804,9 @@ header {
 .star {
   display: inline-block;
   font-style: normal;
-  line-height: 0;
   text-align: center;
   text-transform: none;
   vertical-align: -0.125rem;
-  text-rendering: optimizeLegibility;
   margin: -2px 2px 0px 0px;
   color: rgb(255, 212, 0);
 }
@@ -939,8 +814,6 @@ header {
 .rate {
   font-size: 0.8rem;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0px;
   color: rgb(33, 34, 36);
 }
 
@@ -948,16 +821,12 @@ header {
   margin-left: 2px;
   font-size: 0.8rem;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0px;
   color: rgb(154, 155, 167);
 }
 
 .price {
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0px;
   color: rgb(33, 34, 36);
 }
 
@@ -969,13 +838,9 @@ header {
 }
 
 .seller-name {
-  word-break: break-all;
   overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0px;
   color: rgb(114, 117, 133);
 }
 
@@ -986,7 +851,7 @@ header {
   background-color: white;
   border-radius: 8px;
   box-shadow: rgba(48, 52, 65, 0.05) 0px 0px 20px 5px;
-  display: grid;
+  display: flex;
   gap: 12px;
 }
 
@@ -999,7 +864,6 @@ header {
 
 .main-section4-li-content {
   margin: 0px;
-  line-height: normal;
   font-size: 16px;
   font-weight: 400;
   color: rgb(48, 52, 65);
@@ -1051,7 +915,6 @@ header {
 }
 
 .main-section7-li-image {
-  line-height: 0;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -1150,9 +1013,7 @@ header {
 
 .dropdown-category-div {
   display: flex;
-  -webkit-box-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
   align-items: center;
   height: 27px;
   line-height: 27px;
@@ -1173,8 +1034,6 @@ header {
   text-align: center;
   text-transform: none;
   vertical-align: -0.125em;
-  text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
   color: rgb(48, 52, 65);
   display: none;
 }
