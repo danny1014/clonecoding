@@ -1057,6 +1057,12 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.imagea:hover{
+  transform:scale(1.04);
+  overflow:hidden;
+  transition-duration: 0.4s;
+}
+
 .main-section7-li-desc {
   margin-top: 16px;
   display: flex;
